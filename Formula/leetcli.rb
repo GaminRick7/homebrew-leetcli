@@ -1,8 +1,8 @@
 class Leetcli < Formula
   desc "Modern command-line tool for interacting with LeetCode"
   homepage "https://github.com/GaminRick7/leetcli"
-  url "https://github.com/GaminRick7/leetcli/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "8a1293d939153455f2e1b60df341fbfd115c23d43ddf63f69a757184e76a69b5"
+  url "https://github.com/GaminRick7/leetcli/archive/refs/tags/v0.2.1.tar.gz"
+  sha256 "ffa1c4f946e350d079dff1e2f853ce04268097ea57725435bb0ead3cff9740bb"
   license "MIT"
   head "https://github.com/GaminRick7/leetcli.git", branch: "main"
 
@@ -18,6 +18,6 @@ class Leetcli < Formula
   end
 
   test do
-    assert_match "Usage", shell_output("#{bin}/leetcli 2>&1", 1)
+    assert_match "Usage", shell_output("#{bin}/leetcli help")
   end
 end
