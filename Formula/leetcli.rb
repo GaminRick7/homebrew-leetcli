@@ -1,8 +1,8 @@
 class Leetcli < Formula
   desc "Modern command-line tool for interacting with LeetCode"
   homepage "https://github.com/GaminRick7/leetcli"
-  url "https://github.com/GaminRick7/leetcli/archive/refs/tags/v0.2.3.tar.gz"
-  sha256 "1215aac9a1c310b71c8f9d218eb1b7bbb4d4d40b96612145fc80e11d4a157063"
+  url "https://github.com/GaminRick7/leetcli/archive/refs/tags/v0.3.0.tar.gz"
+  sha256 "61b649b4c0e42bc4963aaa4e4a1755b8b8ba632c5feb790f0f3533348df4e308"
   license "MIT"
   head "https://github.com/GaminRick7/leetcli.git", branch: "main"
 
